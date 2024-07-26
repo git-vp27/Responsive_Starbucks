@@ -14,6 +14,7 @@
     .navbar{
         height: 8vh;
     }
+
 }
 @media (max-width: 700px){
     .itemsLeft{
@@ -51,7 +52,7 @@
         height: 4.5vh;
     }
     .navbar a{
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
     .card{
         flex-direction: column;
@@ -62,7 +63,7 @@
     }
     .card-txt{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
         border-radius: 0 0 4vw 4vw;
     }
     .card-txt h1{
@@ -74,18 +75,64 @@
     }
     .card-txt button{
         margin-top: 4vw;
-        font-size: 1.7vw;
+        font-size: 2.5vw;
         padding: 1.5vw 2.5vw;
     }
     #card1-txt{
         height: 27vh;
     }
-    #card1-txt h1{
+    #card1-txt h1, #card4 h1{
         font-size: 4vw;
     }
     #card1-txt p{
         font-size: 2.5vw;
         line-height: 1.5;
         padding: 0 7vw;
+    }
+    #card4 p{
+        font-size: 2.6vw;
+        padding: 0 8vw;
+    }
+    .info-box{
+        font-size: 2.2vw;
+        padding: 8vw 12vw;
+    }
+    .upper-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+    }
+    .u-footer-content{
+        display: none;
+    }
+    .upperfooter{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4vh;
+    }
+    .upperfooter .u-footer-after{
+        width: 100%;
+        display: flex;
+        padding: 3vh 8vw;
+        border-bottom: 1px solid black;
+    }
+    .u-footer-after div{
+        flex: 1;
+    }
+    .main-footer{
+        margin-bottom: 2vh;
+    }
+    .main-footer i{
+        transform: scale(1.3);
+    }
+    .main-footer li a{
+        font-size: 2.5vw;
+    }
+    .main-footer li{
+        margin-bottom: 1vh;
+    }
+    .trademark{
+        font-size: 2.5vw;
     }
 }
